@@ -1,0 +1,119 @@
+div#container{
+	width:500px;
+	background-color:black;
+	padding:10px;
+	margin:100px;
+}
+body {
+  	height: 100%;
+  	width: 100%;
+}
+body {
+  	font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+}
+hr {
+  	border-width: 3px;
+}
+
+hr.light{
+	border-color:white;
+}
+
+li{
+	padding-bottom:5px;
+}
+
+h1{
+	font-size: 100px;
+	font-weight:bold;
+	font-family: Century Gothic;
+}
+
+h2{
+	font-size: 40px;
+	font-family: Century Gothic;
+	
+}
+
+h3{
+	font-size: 25px;
+	font-family: Century Gothic;
+}
+
+h4{
+	font-size: 20px;
+	font-family: Century Gothic;
+}
+
+p{	
+	font-size: 15px;
+	font-family: Century Gothic;
+	padding-top:10px;
+	margin: auto;
+	text-align:left;
+}
+
+header{
+	font-size: 35px;
+	font-family: Century Gothic;
+	font-weight: bold;
+	padding-left:150px;
+}
+
+#landing-image{
+    background-image: url("../img/norway-ls.jpg");
+    background-repeat: no-repeat;
+    background-position:center bottom;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding-left: 0px;
+}
+
+#landing-container{
+    top:40%;
+    background-color: rgba(255,255,255,0.5);
+    text-align: center;  
+	
+#landing-image2{
+    background-image: url("../img/norway-ls.jpg");
+    background-repeat: no-repeat;
+    background-position:center bottom;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding-left: 0px;
+}
+
+#landing-container2{
+    top:40%;
+    background-color: rgba(255,255,255,0.5);
+    text-align: center;  
+	
+
+span.emphasize{
+	font-weight:bold;
+}
+
+.portfolio-thumbnail {
+	border-width: 0px;
+	border-style: solid;
+	border-color: white;
+	height:0%;
+	width:0%;
+}
+
+.image {
+	height:40%;
+	width:100%;
+	text-align:right;
+	padding-top:2px;
+	background-size:100% auto;
+	position: relative;
+ }
+.image span {
+	position: absolute;
+
+}
