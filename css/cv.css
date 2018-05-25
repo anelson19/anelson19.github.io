@@ -23,6 +23,17 @@ li{
 	padding-bottom:5px;
 }
 
+ul{
+	padding-left:75px;
+	padding-bottom: 10px;
+}
+
+.column{
+	padding-left: 75px;
+	padding-right: 25px;
+    float: left;
+}
+
 h1{
 	font-size: 100px;
 	font-weight:bold;
@@ -46,11 +57,11 @@ h4{
 }
 
 p{	
-	font-size: 15px;
-	font-family: Century Gothic;
-	padding-top:10px;
-	margin: auto;
-	text-align:left;
+	padding-left: 75px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #1a62a3;
+	font-size: 20px;
 }
 
 header{
@@ -61,7 +72,7 @@ header{
 }
 
 #landing-image{
-    background-image: url("../img/capecod.jpg");
+    background-image: url("../img/norway-ls.jpg");
     background-repeat: no-repeat;
     background-position:center bottom;
     background-attachment: fixed;
@@ -103,7 +114,8 @@ span.emphasize{
 	border-color: white;
 	height:0%;
 	width:0%;
-}
+}
+
 
 .image {
 	height:40%;
