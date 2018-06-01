@@ -86,8 +86,8 @@ header{
     top:40%;
     background-color: rgba(255,255,255,0.5);
     text-align: center;  
-	
-#landing-image2{
+}	
+/* #landing-image2{
     background-image: url("../img/norway-ls.jpg");
     background-repeat: no-repeat;
     background-position:center bottom;
@@ -102,7 +102,7 @@ header{
     top:40%;
     background-color: rgba(255,255,255,0.5);
     text-align: center;  
-	
+} */
 
 span.emphasize{
 	font-weight:bold;
@@ -130,7 +130,7 @@ span.emphasize{
 
 }
 .navbar{
-	background-color:gray;
+	background-color:white;
 }
 
 .hamburger{

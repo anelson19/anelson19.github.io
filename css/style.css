@@ -75,8 +75,8 @@ header{
     top:40%;
     background-color: rgba(255,255,255,0.5);
     text-align: center;  
-	
-#landing-image2{
+}
+/* #landing-image2{
     background-image: url("../img/norway-ls.jpg");
     background-repeat: no-repeat;
     background-position:center bottom;
@@ -85,13 +85,13 @@ header{
     width: 100%;
     height: 100vh;
     padding-left: 0px;
-}
+} */
 
-#landing-container2{
+/* #landing-container2{
     top:40%;
     background-color: rgba(255,255,255,0.5);
     text-align: center;  
-	
+ */	
 
 span.emphasize{
 	font-weight:bold;
@@ -103,7 +103,7 @@ span.emphasize{
 	border-color: white;
 	height:0%;
 	width:0%;
-}
+}
 
 .image {
 	height:40%;
@@ -115,12 +115,46 @@ span.emphasize{
  }
 .image span {
 	position: absolute;
-
 }
+
+
 .navbar{
-	background-color:gray;
+	background-color:white;
 }
 
 .hamburger{
 	background-color: #292929 !important;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+.thumbnail:hover .overlay {
+  opacity: .80;
+}
+
+.text {
+  	color: #1a62a3;
+  	font-size: 20px;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+  	font-family: Century Gothic;
+	font-weight:bold;
+	text-transform: uppercase;
+  	text-align: center;
 }
